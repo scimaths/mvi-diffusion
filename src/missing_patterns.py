@@ -22,6 +22,7 @@ def block_mcar(X, mask_percent=0.1, block_size=10):
 
 def get_disjoint_mask(num_series, series_len):
     block_size = series_len // num_series
+    print(series_len, num_series, block_size)
     block_indices = torch.arange(series_len).reshape(1, -1).repeat(num_series, 1) // block_size
     block_mask = (block_indices % num_series) == torch.arange(num_series).unsqueeze(-1).repeat(1, series_len)
     return block_mask
