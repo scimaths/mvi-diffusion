@@ -1,0 +1,80 @@
+DATASET: chlorine
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([1000, 50])
+Train data shape: torch.Size([18, 50, 50]) Val data shape: torch.Size([2, 50, 50])
+Training MODEL: CSDI on dataset: chlorine with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.5169511717933978
+
+
+DATASET: chlorine
+Missing percentage: 0.07760000228881836 Masked data shape: torch.Size([1000, 50])
+Train data shape: torch.Size([18, 50, 50]) Val data shape: torch.Size([2, 50, 50])
+Training MODEL: CSDI on dataset: chlorine with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.14344270072035445
+
+
+DATASET: electricity
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([5000, 20])
+Train data shape: torch.Size([90, 50, 20]) Val data shape: torch.Size([10, 50, 20])
+Training MODEL: CSDI on dataset: electricity with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.02579152545485197
+
+
+DATASET: electricity
+Missing percentage: 0.10040000081062317 Masked data shape: torch.Size([5000, 20])
+Train data shape: torch.Size([90, 50, 20]) Val data shape: torch.Size([10, 50, 20])
+Training MODEL: CSDI on dataset: electricity with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.009900749460385385
+
+
+DATASET: temp
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([5000, 50])
+Train data shape: torch.Size([90, 50, 50]) Val data shape: torch.Size([10, 50, 50])
+Training MODEL: CSDI on dataset: temp with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.02216693617146998
+
+
+DATASET: temp
+Missing percentage: 0.0812000036239624 Masked data shape: torch.Size([5000, 50])
+Train data shape: torch.Size([90, 50, 50]) Val data shape: torch.Size([10, 50, 50])
+Training MODEL: CSDI on dataset: temp with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.010489673847883468
+
+
+DATASET: meteo
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([10000, 20])
+Train data shape: torch.Size([180, 50, 20]) Val data shape: torch.Size([20, 50, 20])
+Training MODEL: CSDI on dataset: meteo with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.42413663319749695
+
+
+DATASET: meteo
+Missing percentage: 0.10045000165700912 Masked data shape: torch.Size([10000, 20])
+Train data shape: torch.Size([180, 50, 20]) Val data shape: torch.Size([20, 50, 20])
+Training MODEL: CSDI on dataset: meteo with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.009378354899855635
+
+
+DATASET: airq
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([1000, 10])
+Train data shape: torch.Size([18, 50, 10]) Val data shape: torch.Size([2, 50, 10])
+Training MODEL: CSDI on dataset: airq with BLOCK FN: blackout
+Training concluded
+Test MAE: 13.282522401178545
+
+
+DATASET: airq
+Missing percentage: 0.0 Masked data shape: torch.Size([1000, 10])
+Train data shape: torch.Size([18, 50, 10]) Val data shape: torch.Size([2, 50, 10])
+Training MODEL: CSDI on dataset: airq with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0
+
+

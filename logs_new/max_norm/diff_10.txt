@@ -1,0 +1,170 @@
+DATASET: chlorine
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([1000, 50])
+Train data shape: torch.Size([18, 50, 50]) Val data shape: torch.Size([2, 50, 50])
+Training MODEL: SAITS on dataset: chlorine with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.23348103628400432
+Training MODEL: PatchTST on dataset: chlorine with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.04041151750269037
+Training MODEL: DLinear on dataset: chlorine with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.08498403661437028
+Training MODEL: CSDI on dataset: chlorine with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.02872393475727875
+
+
+DATASET: chlorine
+Missing percentage: 0.07639999687671661 Masked data shape: torch.Size([1000, 50])
+Train data shape: torch.Size([18, 50, 50]) Val data shape: torch.Size([2, 50, 50])
+Training MODEL: SAITS on dataset: chlorine with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.012652974303570772
+Training MODEL: PatchTST on dataset: chlorine with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.006628398964941252
+Training MODEL: DLinear on dataset: chlorine with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.010729089969904996
+Training MODEL: CSDI on dataset: chlorine with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.016031693227596146
+
+
+DATASET: electricity
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([5000, 20])
+Train data shape: torch.Size([90, 50, 20]) Val data shape: torch.Size([10, 50, 20])
+Training MODEL: SAITS on dataset: electricity with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.07508814511018509
+Training MODEL: PatchTST on dataset: electricity with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.06076220064171091
+Training MODEL: DLinear on dataset: electricity with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.09122830000036695
+Training MODEL: CSDI on dataset: electricity with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.1086840669133679
+
+
+DATASET: electricity
+Missing percentage: 0.10649999976158142 Masked data shape: torch.Size([5000, 20])
+Train data shape: torch.Size([90, 50, 20]) Val data shape: torch.Size([10, 50, 20])
+Training MODEL: SAITS on dataset: electricity with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.006775093558525491
+Training MODEL: PatchTST on dataset: electricity with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.004471266854495715
+Training MODEL: DLinear on dataset: electricity with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.004398015748250057
+Training MODEL: CSDI on dataset: electricity with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.00914937655963173
+
+
+DATASET: temp
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([5000, 50])
+Train data shape: torch.Size([90, 50, 50]) Val data shape: torch.Size([10, 50, 50])
+Training MODEL: SAITS on dataset: temp with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.05241127681273128
+Training MODEL: PatchTST on dataset: temp with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.028376241600996024
+Training MODEL: DLinear on dataset: temp with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.051663992758523784
+Training MODEL: CSDI on dataset: temp with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.020789796056278443
+
+
+DATASET: temp
+Missing percentage: 0.08107999712228775 Masked data shape: torch.Size([5000, 50])
+Train data shape: torch.Size([90, 50, 50]) Val data shape: torch.Size([10, 50, 50])
+Training MODEL: SAITS on dataset: temp with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.004110505065712026
+Training MODEL: PatchTST on dataset: temp with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.003503614974680024
+Training MODEL: DLinear on dataset: temp with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.003379914520276126
+Training MODEL: CSDI on dataset: temp with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.004790841738862209
+
+
+DATASET: meteo
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([10000, 20])
+Train data shape: torch.Size([180, 50, 20]) Val data shape: torch.Size([20, 50, 20])
+Training MODEL: SAITS on dataset: meteo with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.4748616128907039
+Training MODEL: PatchTST on dataset: meteo with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.06468674016621304
+Training MODEL: DLinear on dataset: meteo with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.03450299515623658
+Training MODEL: CSDI on dataset: meteo with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.016706407375984954
+
+
+DATASET: meteo
+Missing percentage: 0.09849999845027924 Masked data shape: torch.Size([10000, 20])
+Train data shape: torch.Size([180, 50, 20]) Val data shape: torch.Size([20, 50, 20])
+Training MODEL: SAITS on dataset: meteo with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.003508645952003578
+Training MODEL: PatchTST on dataset: meteo with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0022327732216501552
+Training MODEL: DLinear on dataset: meteo with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.002270243333431247
+Training MODEL: CSDI on dataset: meteo with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.004457006540339044
+
+
+DATASET: airq
+Missing percentage: 0.10000000149011612 Masked data shape: torch.Size([1000, 10])
+Train data shape: torch.Size([18, 50, 10]) Val data shape: torch.Size([2, 50, 10])
+Training MODEL: SAITS on dataset: airq with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.15346358017107253
+Training MODEL: PatchTST on dataset: airq with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.05974309365501171
+Training MODEL: DLinear on dataset: airq with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.024706418857276823
+Training MODEL: CSDI on dataset: airq with BLOCK FN: blackout
+Training concluded
+Test MAE: 0.17999623993702088
+
+
+DATASET: airq
+Missing percentage: 0.0 Masked data shape: torch.Size([1000, 10])
+Train data shape: torch.Size([18, 50, 10]) Val data shape: torch.Size([2, 50, 10])
+Training MODEL: SAITS on dataset: airq with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0
+Training MODEL: PatchTST on dataset: airq with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0
+Training MODEL: DLinear on dataset: airq with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0
+Training MODEL: CSDI on dataset: airq with BLOCK FN: block_mcar
+Training concluded
+Test MAE: 0.0
+
+
